@@ -1,0 +1,4 @@
+dependencies:
+- name: elasticsearach
+  version: "7.10.0"
+  repository: "https://helm.elastic.co"
