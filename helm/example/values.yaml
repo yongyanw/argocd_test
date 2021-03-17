@@ -31,8 +31,6 @@ elasticsearch:
     resources:
       requests:
         storage: 10Gi
-  roles:
-    remote_cluster_client: null
 
 podAnnotations: {}
 
