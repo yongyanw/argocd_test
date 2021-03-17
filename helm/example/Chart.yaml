@@ -5,7 +5,7 @@ description: A Helm chart for Kubernetes
 dependencies:
 - name: elasticsearach
   version: "7.10.0"
-  repository: "https://helm.elastic.co"
+  repository: "https://github.com/elastic/helm-charts.git"
 
 # A chart can be either an 'application' or a 'library' chart.
 #
