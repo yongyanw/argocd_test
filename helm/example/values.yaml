@@ -23,6 +23,17 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
+elasticsearch:
+  imageTag: 6.2.1
+  replicas: 1
+  minimumMasterNodes: 1
+  volumeClaimTemplate:
+    resources:
+      requests:
+        storage: 10Gi
+  roles:
+    remote_cluster_client: null
+
 podAnnotations: {}
 
 podSecurityContext: {}
